@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+}
+
+h6{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: all ease 0.5s;
+}
+
+a:hover{
+    color: #e0ae22;
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+
+#logo{
+    height: 70px;
+    margin-left: 0%;
+    padding: 0px;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    margin: 0;
+    padding: 10px 10%;
+    background-color: #191d30;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: top;
+}
+.nav {
+    list-style: none;
+}
+.nav li {
+    display: inline-block;
+    color: #fcfcfc;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 0px 20px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.nav li:hover{
+    color: #e0ae22;
+    font-size: 20px;
+    text-decoration: underline;
+    transition: all ease 0.5s;
+}
+
+header button{
+    cursor: pointer;
+    border: 10px #171717;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50px; 
+    font-family: inherit;
+    padding: 14px 16px;
+    background-color: #fcfcfc;
+    -moz-border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+header button:hover{
+    margin: 10px;
+    background-color: #e0ae22;
+    font-size: 18px;
+    padding: 16px 18px;
+    color: #fcfcfc;
+    transition: all ease 0.5s;
+}
+
+#background {
+    width: 50%;
+    height: 500px;
+    object-fit: cover;
+    margin: 0;
+}
+
+#detail{
+    width: 50%;
+    height: 500px;
+    background-color: #222222;
+}
+
+.show {
+    display: flex;
+    align-items: center;
+}
+
+#detail {
+    align-items: center;
+    padding: 5%;
+}
+
+#detail h2{
+    padding: 0;
+    border: 0;
+    color:#fcfcfc;
+    font-size: 45px;
+}
+
+#detail a{
+    color: #ebc660;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: all ease 0.5s;
+    font-size: 18px;
+}
+
+#detail a:hover{
+    color: #fcfcfc;
+    transition: all ease 0.5s;
+    font-size: 20px;
+}
+
+#detail p{
+    color: #fcfcfcdb;
+    overflow: hidden;
+}
+
+#detail hr{
+    border: 1px solid #fcfcfc;
+}
+
+.info{
+    padding-top: 2%;
+    margin: auto;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.info h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.info_box{
+    width: 70%;
+}
+
+.box{
+    background-color: #f0f0f0;
+    margin-left: 5%;
+    height: 250px;
+    width: 25%;
+    align-items: center;
+    padding: 2%;
+}
+
+.box h6, .box2 h6{
+    font-size: 20px;
+    color: #1d2b6d;
+}
+
+.box p, .box2 p, .box a{
+    color:#1d2b6d;
+    transition: all ease 0.5s;
+}
+
+.box a:hover{
+    color: #e0ae22;
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+
+
+.box2 {
+    background-color: #f0f0f0;
+    margin-right: 5%;
+    height: 250px;
+    width: 25%;
+    align-items: center;
+    padding: 2%;
+}
+
+.location {
+    width: 80%;
+    margin: auto;
+}
+
+.location h2{
+    padding-top: 2%;
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+}
+
+#map{
+    padding-top: 2%;
+    margin: auto;
+    height: 500px;
+    width: 80%;
+}
+
+#info2, #loc{
+    background-color: #fafafa;
+}
+
+footer{
+    padding-top: 1%;
+    margin-top: 2%;
+    background-color: #191d30;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 1%;
+    color: #fcfcfc;
+}
+
+#button_down {
+    font-size: 16px;
+    width: 40%;
+    padding: 5%;
+    border: 3px solid #1d2b6d;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #1d2b6d;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    align-items: center;
+    text-align: center;
+}
+
+#button_down:hover{
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+footer a{
+    text-decoration: none;
+    color: #fcfcfc;
+}
